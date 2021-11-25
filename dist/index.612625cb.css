@@ -1,0 +1,125 @@
+body,
+html {
+  margin: 0px;
+  font-family: "Karla", sans-serif;
+  font-size: 14pt;
+  height: 100%;
+  background-color: azure;
+}
+body #container,
+html #container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body #container h1,
+html #container h1 {
+  font-family: century gothic;
+  text-transform: uppercase;
+  font-size: 2em;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+body #container #todo-container #task-container,
+html #container #todo-container #task-container {
+  background-color: white;
+  font-size: 1em;
+  width: 350px;
+  border-radius: 9px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.12);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+body #container #todo-container #task-container #form,
+html #container #todo-container #task-container #form {
+  padding-left: 41px;
+}
+body #container #todo-container #task-container #form input,
+html #container #todo-container #task-container #form input {
+  background-color: white;
+  height: 30px;
+  border-radius: 5px;
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.12);
+  border-style: none;
+}
+body #container #todo-container #task-container #form input[type=text],
+html #container #todo-container #task-container #form input[type=text] {
+  font-family: "Karla", sans-serif;
+  font-size: 1em;
+}
+body #container #todo-container #task-container #form .newTodoBtnStyle,
+html #container #todo-container #task-container #form .newTodoBtnStyle {
+  cursor: pointer;
+  background-color: #ececd5;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-style: none;
+}
+body #container #todo-container #task-container #form span.fas.fa-sort::before,
+html #container #todo-container #task-container #form span.fas.fa-sort::before {
+  cursor: pointer;
+}
+body #container #todo-container #task-container .ulStyle,
+html #container #todo-container #task-container .ulStyle {
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 0px;
+  font-size: 1em;
+  display: flex;
+  flex-direction: column;
+}
+body #container #todo-container #task-container .ulStyle .liStyle,
+html #container #todo-container #task-container .ulStyle .liStyle {
+  height: 20px;
+  padding: 0px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+body #container #todo-container #task-container .ulStyle .markcomplete,
+html #container #todo-container #task-container .ulStyle .markcomplete {
+  padding: 0px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid grey;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #9e9d9d;
+  cursor: pointer;
+}
+body #container #todo-container #task-container .ulStyle .markcomplete .div,
+html #container #todo-container #task-container .ulStyle .markcomplete .div {
+  height: 20px;
+  width: 30px;
+}
+body #container #todo-container #task-container .ulStyle .markcomplete .div .checkboxStyle,
+html #container #todo-container #task-container .ulStyle .markcomplete .div .checkboxStyle {
+  cursor: pointer;
+}
+body #container #todo-container #task-container .ulStyle .markcomplete p,
+html #container #todo-container #task-container .ulStyle .markcomplete p {
+  font-size: 0.9em;
+  cursor: pointer;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  body #container #todo-container #task-container,
+html #container #todo-container #task-container {
+    width: 700px;
+  }
+}
+/*# sourceMappingURL=index.612625cb.css.map */
